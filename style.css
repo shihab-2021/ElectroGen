@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-sharif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* global css start */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* gloval css end  */
+
+/* header start  */
+
+header {
+    background-color: #ffffff;
+    color: black;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: crimson 3px solid;
+    width: 100%;
+}
+
+header #branding {
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+header #branding img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+header #branding h1 {
+    padding-top: 20px;
+    padding-left: 5px;
+    color: rgb(9, 9, 99);
+}
+
+header nav {
+    float: right;
+    margin-top: 20px;
+}
+
+header nav li {
+    float: left;
+    display: inline;
+    padding: 10px 20px 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    font-size: 20px;
+    padding: 10%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+header a:hover {
+    font-weight: bold;
+}
+
+/* header end  */
+
+/* showcase start  */
+
+#showcase  {
+    min-height: 400px;
+    background: url(./img/wall.jpg) center center / cover;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+#showcase::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#showcase h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: cyan;
+    font-family: 'Yellowtail', cursive;
+}
+
+#showcase p {
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+/* showcase end  */
+
+/* like start  */
+
+#like {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+    border-top: crimson 3px solid;
+    border-bottom: crimson 3px solid;
+}
+
+#like .container {
+    text-align: center;
+    border-top: crimson 1px solid;
+    border-bottom: crimson 1px solid;
+}
+
+#like a {
+    color: wheat;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#like a:hover {
+    font-weight: bold;
+    color: cyan;
+}
+
+#like a i {
+    font-size: 40px;
+    display: inline-block;
+}
+
+/* like end  */
+
+/* services start  */
+
+#services {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#services .container {
+    display: flex;
+    flex-direction: row;
+}
+
+#services .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+#services .box {
+    padding: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    margin-top: 20px;
+    width: 90%;
+}
+
+#services img {
+    width: 120px;
+}
+
+/* services end  */
+
+/* footer start  */
+
+footer {
+    padding: 30px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: #e8491d;
+    text-align: center;
+}
+
+/* footer start  */
+
+
+/* media q start  */
+
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header #branding {
+        margin-bottom: -32px;
+    }
+    header nav {
+        margin-bottom: 15px;
+    }
+    #services .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #services .boxes {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* media q end  */
