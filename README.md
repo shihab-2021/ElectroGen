@@ -1,4 +1,4 @@
-<h2  style="background-color:DodgerBlue;" align="center"> HENOSIS </h2>
+<h2 background-color:"DodgerBlue" align="center"> HENOSIS </h2>
 <p align="center"> Plan | Organize | Track </p>
 <h4 align="center"> The prime goal of  Henosis is to assist managers with their everyday project management responsibilities. Henosis allows you to plan, organize, and prioritize tasks to finish them efficiently. It also helps you to connect with other developers through a real-time chat portal. Developers can discuss issues and plan upcoming features.
 </h4>
