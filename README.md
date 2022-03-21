@@ -3,7 +3,7 @@
 <h4 align="center"> The prime goal of  Henosis is to assist managers with their everyday project management responsibilities. Henosis allows you to plan, organize, and prioritize tasks to finish them efficiently. It also helps you to connect with other developers through a real-time chat portal. Developers can discuss issues and plan upcoming features.
 </h4>
 
-<p align="center">      
+<p background="black" align="center">      
       <img src="https://miro.medium.com/max/6000/1*ZQywXQQMs32Dray68Sjptg.jpeg" alt="conference-events"  width="500px" /> </br>
 </p>
 
